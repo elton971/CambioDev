@@ -1,0 +1,50 @@
+.coutry{
+    display: flex;
+
+    margin-top: 4rem;
+
+    font-size: 2rem;
+    margin-left: 1rem;
+
+}
+.coutry > img{
+    position: relative;
+    top:50px;
+    left: 30px;
+
+    width: 2rem;
+    height: 2rem;
+
+    cursor: pointer;
+    
+}
+.select_div:last-child{
+    
+    padding-left: 5rem;
+}
+.select_div select {
+    width: 5rem;
+    height: 3rem;
+
+    border: none;
+    outline: none;
+  
+}
+
+.select_div_flex{
+    display: flex;
+    align-items: center;
+    border: 2px solid #ccc;
+}
+.select_div_flex .flag{
+
+   width: 2rem;
+   height: 2rem; 
+
+   margin: 1rem;
+   
+}
+.resultado{
+    font-size: 1.5rem;
+    margin: 1rem 0 0  1rem;
+}

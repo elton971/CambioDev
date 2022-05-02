@@ -1,0 +1,23 @@
+.InputMount__container{
+
+    margin-left: 1rem;
+    margin-top:4rem;
+    font-size: 2rem;
+
+}
+.InputMount__container input{
+    
+    width: 100%;
+    height: 3rem;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    padding: 0.5rem;
+    font-size: 1rem;
+    font-weight: 4  00;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    color: rgb(0, 0, 0);
+    background-color: transparent;
+    outline: none;
+    transition: all 0.3s ease-in-out;
+}

@@ -1,0 +1,31 @@
+
+.Botao_container button{
+   width: 98%;
+   height: 5rem;
+   
+   margin-left: 1rem;
+   margin-top: 3rem;
+
+   border: none; 
+   border-radius: 5px;
+
+   background-color: blueviolet;
+    color: white;
+
+    cursor: pointer;
+
+    transition: all .5s;
+}
+
+.Botao_container button:hover{
+    background-color: rgb(101, 43, 226);
+    
+
+    transform: translateY(-2px);
+
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.809);
+}
+
+.Botao_container button:active{
+    transform: translate(0);
+}
