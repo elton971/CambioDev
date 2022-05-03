@@ -1,5 +1,5 @@
 
-import "../Styles/SelectCountry.css";
+import "../styles/SelectCountry.css";
 import Img from "../img/exchange.png";
 import {Botao} from "./Botao";
 import { useState,useEffect} from "react";

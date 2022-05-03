@@ -1,5 +1,5 @@
 import {useState} from "react"
-import "../Styles/InputMount.css"
+import "../styles/InputMount.css"
 
 export const InputMount  = (props:any ) =>{
     return (

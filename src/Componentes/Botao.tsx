@@ -1,4 +1,4 @@
-  import "../Styles/botao.css";
+  import "../styles/botao.css";
   
   export const Botao=(props:any)=>{
     
