@@ -2,7 +2,7 @@ import { useState } from "react"
 import { Botao } from "./Componentes/Botao"
 import { InputMount } from "./Componentes/InputMount"
 import { SelectCountry } from "./Componentes/SelectCountry"
-import "./styles/app.css"
+import "./styles/app.css"	
 function App() {
   
  const [ inputVal,setInput] = useState();
