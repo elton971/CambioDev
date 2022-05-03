@@ -1,6 +1,6 @@
 
 .Botao_container button{
-   width: 98%;
+   width: 93%;
    height: 5rem;
    
    margin-left: 1rem;
@@ -28,4 +28,13 @@
 
 .Botao_container button:active{
     transform: translate(0);
+}
+
+@media (max-width:720px){
+    .Botao_container button{
+        width: 90%;
+        height: 5rem;
+        margin: 2rem 1.5rem;
+
+    }
 }
