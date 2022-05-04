@@ -5,8 +5,11 @@ import {Botao} from "./Botao";
 import { useState,useEffect} from "react";
 let country_list:any;
 
+// O teu array de objectos
 
-export const SelectCountry = (props:any) => {
+
+
+ export const SelectCountry = (props:any) => {
     country_list = {
         "AED" : "AE",
         "AFN" : "AF",
@@ -219,7 +222,9 @@ export const SelectCountry = (props:any) => {
                     </div>
             
                 </div>
+
                 <img src={Img} className="foto"/>
+                
                 <div className="select_div">
                     <p>To</p>
                     <div className="select_div_flex">
@@ -241,7 +246,7 @@ export const SelectCountry = (props:any) => {
                     </div>
                 </div>
             </div>
-            
+
             <p className="resultado"> {resultado}</p>  
             <Botao setCalculo={setCalculo} inputVal={props.inputVal} paisfrom={paisfrom} paisTo={paisTo}/>
         </section>
